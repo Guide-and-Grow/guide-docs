@@ -23,11 +23,17 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 │   ├── assets/
 │   ├── content/
 │   │   ├── docs/
+│   │   │     ├── guides
+│   │   │     ├── javascript
+│   │   │     ├── referances
+│   │   │     ├── typeScript
 │   │   └── config.ts
 │   └── env.d.ts
+├── gitignore
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
+
 ```
 
 Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
