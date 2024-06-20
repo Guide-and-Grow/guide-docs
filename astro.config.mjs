@@ -18,6 +18,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Python',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Introduction to Python', link: '/python/introduction' },
+					],
+				},{
 					label: 'TypeScript',
 					items: [
 						// Each item here is one entry in the navigation menu.
