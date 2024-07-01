@@ -18,16 +18,42 @@ export default defineConfig({
 					],
 				},
 				{
+
+					label: 'HTML',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'What is HTML', link: '/html/html/' },
+					],
+				},
+				{
+
 					label: 'Python',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Introduction to Python', link: '/python/introduction' },
 					],
 				},{
+
 					label: 'TypeScript',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'What is TypeScript', link: '/typescript/typescript/' },
+					],
+				},
+				{
+					label: 'JavaScript',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'What is JavaScript', link: '/javascript/javascript_introduction/javascript_introduction' },
+						{ label: 'Variables in JavaScript', link: '/javascript/javascript_variables/javascript_variables' },
+						{ label: 'Datatypes in JavaScript', link: '/javascript/javascript_datatypes/javascript_datatypes' },
+					],
+				},
+				{
+					label: 'Node',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'What is Node', link: '/node/node/' },
 					],
 				},
 				
