@@ -35,8 +35,9 @@ export default defineConfig({
 					label: 'JavaScript',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'What is JavaScript', link: '/javascript/01_js_intro/01_js_intro' },
-						{ label: 'Variables in JavaScript', link: '/javascript/02_js_variables/02_js_variables' },
+						{ label: 'What is JavaScript', link: '/javascript/javascript_introduction/javascript_introduction' },
+						{ label: 'Variables in JavaScript', link: '/javascript/javascript_variables/javascript_variables' },
+						{ label: 'Datatypes in JavaScript', link: '/javascript/javascript_datatypes/javascript_datatypes' },
 					],
 				},
 				{
