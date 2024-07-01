@@ -11,13 +11,14 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Introduction',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Introduction to Guide Docs', link: '/intro/intro/' },
 					],
 				},
 				{
+
 					label: 'HTML',
 					items: [
 						// Each item here is one entry in the navigation menu.
@@ -25,6 +26,14 @@ export default defineConfig({
 					],
 				},
 				{
+
+					label: 'Python',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Introduction to Python', link: '/python/introduction' },
+					],
+				},{
+
 					label: 'TypeScript',
 					items: [
 						// Each item here is one entry in the navigation menu.
