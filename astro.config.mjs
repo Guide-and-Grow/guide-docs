@@ -31,6 +31,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Introduction to Python', link: '/python/introduction' },
+						{ label: 'Python inner working', link: '/python/innerworking' },
 					],
 				},{
 
