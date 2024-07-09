@@ -15,7 +15,7 @@ Python is popular programming language known for its simplicity and versatility.
 
 To start coding in Python, you need to install python on your computer. You can download it from the official [Python website](https://www.python.org/downloads/).
 
-![python download image](./../../docs//main/python/python1.jpeg)
+![python download image](./../../docs//main/python/python1.jpeg) 
 
 Its automatically detects your machine and gets you the suitable package for your machine.
 
