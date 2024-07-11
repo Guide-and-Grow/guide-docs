@@ -68,6 +68,14 @@ export default defineConfig({
             { label: "What is Node", link: "/node/node/" },
           ],
         },
+
+        {
+          label: "Tips and Tools",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Regular Expressions in Javascript", link: "/tipsandtools/regularexpressions/" },
+          ],
+        },
       ],
     }),
   ],
