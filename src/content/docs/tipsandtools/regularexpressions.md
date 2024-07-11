@@ -125,3 +125,5 @@ console.log(validateEmail("invalid-email"));        // false
 
 
 Regular expressions are powerful tools for text processing. JavaScript's RegExp object provides the flexibility to work with regular expressions in both literal and constructor notations, and with various flags to control the search behavior.
+
+**Happy Coding!**
