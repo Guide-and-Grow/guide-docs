@@ -73,7 +73,7 @@ export default defineConfig({
           label: "Tips and Tools",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Regular Expressions", link: "/tipsandtools/regularexpressions/" },
+            { label: "Regular Expressions in Javascript", link: "/tipsandtools/regularexpressions/" },
           ],
         },
       ],

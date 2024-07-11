@@ -1,5 +1,5 @@
 ---
-title: What is Regular Expressions?
+title: Regular Expressions in JS
 description: Discussion about Regular Expressions in Javascript
 ---
 
