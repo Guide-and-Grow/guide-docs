@@ -4,11 +4,13 @@ description: discussion about variable
 ---
 
 
-Variables allow you to store and manipulate data in your programs.
+Variables allow you to **store** and **manipulate data** in your programs.
 
-There are three ways to declared the variables : `let`, `const` and `var` 
+* There are three ways to declared the variables : `let`, `const` and `var`.
 
-* **Let** : When we declare a variable using the `let` keyword in JavaScript, you can reassign its value.
+### Let keyword in JS 
+
+When we declare a variable using the `let` keyword in JavaScript, you **can reassign** its value.
 
 **Syntax :**
 
@@ -32,7 +34,9 @@ x = 20;
 console.log(x); // Output: 20
 ```
 
-* **Const :** When we declare a variable using the `const` keyword in JavaScript, you cannot reassign its value.
+### Const Keyword in JS
+
+When we declare a variable using the `const` keyword in JavaScript, you **cannot reassign** its value.
 
 **Syntax :**
 
@@ -47,7 +51,8 @@ const x = 10;
 console.log(x); // Output: 10
 ```
 
-* **Var :** The JavaScript `var` statement is used to declare variables that are either limited to the function they are declared in or available globally. Before the introduction of ES6, `var` was the only way to declare variables in JavaScript. However, `var` does not have block scope, which means the variables declared with `var` are not confined to the block of code (like an if statement or a loop) in which they are declared, unlike variables declared with `let` and `const`.
+### Var keyword in JS
+ The JavaScript `var` statement is used to declare variables that are either limited to the function they are declared in or available globally. Before the introduction of ES6, `var` was the only way to declare variables in JavaScript. However, `var` does not have block scope, which means the variables declared with `var` are not confined to the block of code (like an if statement or a loop) in which they are declared, unlike variables declared with `let` and `const`.
 
 **Example :**
 
@@ -59,8 +64,8 @@ var greeting = "Hello, World!";
 console.log(greeting); // Outputs: Hello, World!
 ```
 
-:::note
-Modern JavaScript often uses let and const instead of var because they have block scope and avoid some of the pitfalls of var.
+:::danger
+Modern JavaScript often uses `let` and `const` instead of `var` because they have block scope and avoid some of the pitfalls of var.
 :::
 
 **Happy learning! Happy Coding!**
