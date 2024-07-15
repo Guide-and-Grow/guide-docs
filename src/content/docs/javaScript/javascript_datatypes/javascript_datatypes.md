@@ -9,7 +9,7 @@ A **datatype** is a classification that specifies the type of value a variable c
 
 **There are 2 types of datatypes -**
 
-#### Primitive Data-Types
+### Primitive Data-Types
 
 Primitive data types are the *most basic* types of data that JavaScript supports. 
 
@@ -92,7 +92,7 @@ console.log(symbol1 === symbol2); // false
 let bigNumber = BigInt(1234567890123456789012345678901234567890n);
 ```
 
-#### Non-Primitive Data-Types
+### Non-Primitive Data-Types
 
 Non-primitive data types, also known as reference types, include:
 
