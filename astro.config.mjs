@@ -74,6 +74,8 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Regular Expressions in Javascript", link: "/tipsandtools/regularexpressions/" },
+            { label: "HTTP Response Status Codes", link: "/tipsandtools/httpresponsestatuscode/" },
+
           ],
         },
       ],
