@@ -49,15 +49,19 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "What is JavaScript",
-              link: "/javascript/javascript_introduction/javascript_introduction",
+              link: "/javascript/javascript_introduction",
             },
             {
               label: "Variables in JavaScript",
-              link: "/javascript/javascript_variables/javascript_variables",
+              link: "/javascript/javascript_variables",
             },
             {
               label: "Datatypes in JavaScript",
-              link: "/javascript/javascript_datatypes/javascript_datatypes",
+              link: "/javascript/javascript_datatypes",
+            },
+            {
+              label: "Stack and Heap Memory in JavaScript",
+              link: "/javascript/javascript_stack_and_heap_memory",
             },
           ],
         },
