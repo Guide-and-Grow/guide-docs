@@ -59,6 +59,10 @@ export default defineConfig({
               label: "Datatypes in JavaScript",
               link: "/javascript/javascript_datatypes",
             },
+            {
+              label: "Stack and Heap Memory in JavaScript",
+              link: "/javascript/javascript_stack_and_heap_memory",
+            },
           ],
         },
         {
