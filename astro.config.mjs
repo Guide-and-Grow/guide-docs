@@ -30,6 +30,7 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Introduction to Python", link: "/python/introduction" },
             { label: "Python inner working", link: "/python/innerworking" },
+            { label: "Mutable and Immutable Types in Python", link: "/python/mutable-and-immutable" },
           ],
         },
         {
@@ -77,9 +78,14 @@ export default defineConfig({
           label: "Tips and Tools",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Regular Expressions in Javascript", link: "/tipsandtools/regularexpressions/" },
-            { label: "HTTP Response Status Codes", link: "/tipsandtools/httpresponsestatuscode/" },
-
+            {
+              label: "Regular Expressions in Javascript",
+              link: "/tipsandtools/regularexpressions/",
+            },
+            {
+              label: "HTTP Response Status Codes",
+              link: "/tipsandtools/httpresponsestatuscode/",
+            },
           ],
         },
       ],
