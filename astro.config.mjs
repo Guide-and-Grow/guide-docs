@@ -17,13 +17,13 @@ export default defineConfig({
             { label: "Introduction to Guide Docs", link: "/intro/intro/" },
           ],
         },
-        {
-          label: "HTML",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "What is HTML", link: "/html/html/" },
-          ],
-        },
+        // {
+        //   label: "HTML",
+        //   items: [
+        //     // Each item here is one entry in the navigation menu.
+        //     { label: "What is HTML", link: "/html/html/" },
+        //   ],
+        // },
         {
           label: "Python",
           items: [
