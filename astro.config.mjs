@@ -73,6 +73,13 @@ export default defineConfig({
             { label: "What is Node", link: "/node/node/" },
           ],
         },
+        {
+          label: "Dsa JavaScript Questions",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Easy", link: "/dsa-js/questions/" },
+          ],
+        },
 
         {
           label: "Tips and Tools",
