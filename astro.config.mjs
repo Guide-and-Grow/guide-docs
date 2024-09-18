@@ -64,6 +64,10 @@ export default defineConfig({
               label: "Stack and Heap Memory in JavaScript",
               link: "/javascript/javascript_stack_and_heap_memory",
             },
+            {
+              label: "Rest and  Spread Operator in JavaScript",
+              link: "/javascript/javascript_rest_spread_operator",
+            },
           ],
         },
         {
