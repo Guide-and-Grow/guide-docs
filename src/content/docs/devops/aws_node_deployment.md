@@ -86,7 +86,7 @@ description: A beginner-friendly Guide for Node.js Deployment to AWS
 
 ---
 
-### Step 3 : Configure Security Groups
+### Step 4 : Configure Security Groups
 
 1. **Navigate to Security groups**:
 
@@ -114,7 +114,7 @@ description: A beginner-friendly Guide for Node.js Deployment to AWS
 
 ---
 
-### Step 4 : Connect to Your Instance
+### Step 5 : Connect to Your Instance
 
 - **Connect to your instance using SSH:**
 
@@ -133,7 +133,7 @@ description: A beginner-friendly Guide for Node.js Deployment to AWS
 
 ---
 
-### Step 5 : Install Node.js on Virtual Machine
+### Step 6 : Install Node.js on Virtual Machine
 
 - **Install Node.js**:
 
@@ -151,7 +151,7 @@ description: A beginner-friendly Guide for Node.js Deployment to AWS
 
 ---
 
-### Step 6 : Clone Your Project ans install Dependencies
+### Step 7 : Clone Your Project ans install Dependencies
 
 - **Clone your project**:
 
@@ -187,7 +187,7 @@ description: A beginner-friendly Guide for Node.js Deployment to AWS
 
 ---
 
-### Step 7 : Install PM2 Globally and Test Your App
+### Step 8 : Install PM2 Globally and Test Your App
 
 - **PM2 is a process manager for Node.js applications that helps you keep your apps running continuously, even after a server restart. It allows you to manage, monitor, and scale applications easily with commands for starting, stopping, restarting, and viewing logs. PM2 also provides features like automatic startup on boot, log management, and process clustering for better performance.**
 - **Install PM2 globally**:
@@ -337,7 +337,7 @@ and options, you can refer to the official PM2 documentation.
 
   ![AWS Login Screenshot](../../docs/main/aws/ec2/24.png)
 
-### Step 8 : Install NGINX and Configure
+### Step 9 : Install NGINX and Configure
 
 - **Why Use NGINX?**
 
@@ -408,7 +408,7 @@ and options, you can refer to the official PM2 documentation.
 
 Now, NGINX should be serving your Node.js application. You can access it via your domain or IP.
 
-### Step 9: Add SSL with Let's Encrypt
+### Step 10 : Add SSL with Let's Encrypt
 
 - To add SSL with Let's Encrypt, you need to install the Certbot package on your Ubuntu server. Follow these steps:
 
