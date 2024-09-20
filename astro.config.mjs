@@ -13,7 +13,6 @@ export default defineConfig({
         {
           label: "Introduction",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "Introduction to Guide Docs", link: "/intro/intro/" },
           ],
         },
@@ -27,10 +26,12 @@ export default defineConfig({
         {
           label: "Python",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "Introduction to Python", link: "/python/introduction" },
             { label: "Python inner working", link: "/python/innerworking" },
-            { label: "Mutable and Immutable Types in Python", link: "/python/mutable-and-immutable" },
+            {
+              label: "Mutable and Immutable Types in Python",
+              link: "/python/mutable-and-immutable",
+            },
           ],
         },
         {
@@ -47,7 +48,6 @@ export default defineConfig({
         {
           label: "JavaScript",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "What is JavaScript",
               link: "/javascript/javascript_introduction",
@@ -68,23 +68,20 @@ export default defineConfig({
         },
         {
           label: "Node",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "What is Node", link: "/node/node/" },
-          ],
+          items: [{ label: "What is Node", link: "/node/node/" }],
         },
         {
           label: "Dsa JavaScript Questions",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Easy", link: "/dsa-js/questions/" },
-          ],
+          items: [{ label: "Easy", link: "/dsa-js/questions/" }],
+        },
+        {
+          label: "Devops",
+          items: [{ label: "Full Node.js Deployment to AWS", link: "/devops/aws_node_deployment" }],
         },
 
         {
           label: "Tips and Tools",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Regular Expressions in Javascript",
               link: "/tipsandtools/regularexpressions/",
