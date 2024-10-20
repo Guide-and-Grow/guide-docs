@@ -51,6 +51,10 @@ export default defineConfig({
               label: "Types and Interfaces in TypeScript",
               link: "/typescript/typescript-type-and-interfaces",
             },
+            {
+              label: "TypeScript Optional Properties ",
+              link: "/typescript/typescript-optional-properties",
+            },
           ],
         },
         {
