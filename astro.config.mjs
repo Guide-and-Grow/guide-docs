@@ -39,9 +39,10 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "What is TypeScript", link: "/typescript/typescript/" },
+
             {
-              label: "Installation to TypeScript",
-              link: "/typescript/installation/",
+              label: "Typescript inner working and installation",
+              link: "/typescript/innerworking",
             },
           ],
         },
@@ -80,7 +81,12 @@ export default defineConfig({
         },
         {
           label: "Devops",
-          items: [{ label: "Full Node.js Deployment to AWS", link: "/devops/aws_node_deployment" }],
+          items: [
+            {
+              label: "Full Node.js Deployment to AWS",
+              link: "/devops/aws_node_deployment",
+            },
+          ],
         },
 
         {
