@@ -54,7 +54,10 @@ export default defineConfig({
             {
               label: "TypeScript Optional Properties ",
               link: "/typescript/typescript-optional-properties",
-            },
+            },{
+              label: "TypeScript Type Assertions",
+              link: "/typescript/typescript-type-assertions",
+            }
           ],
         },
         {
