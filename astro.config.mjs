@@ -38,9 +38,8 @@ export default defineConfig({
           label: "TypeScript",
           items: [
             { label: "What is TypeScript", link: "/typescript/typescript/" },
-
             {
-              label: "Typescript inner working and installation",
+              label: "Typescript Inner Working and Installation",
               link: "/typescript/innerworking",
             },
             {
@@ -52,7 +51,7 @@ export default defineConfig({
               link: "/typescript/typescript-type-and-interfaces",
             },
             {
-              label: "TypeScript Optional Properties ",
+              label: "TypeScript Optional Properties",
               link: "/typescript/typescript-optional-properties",
             },
             {
@@ -69,6 +68,7 @@ export default defineConfig({
             },
           ],
         },
+        
         {
           label: "JavaScript",
           items: [
