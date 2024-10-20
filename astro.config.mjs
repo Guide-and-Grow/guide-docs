@@ -66,9 +66,13 @@ export default defineConfig({
               label: "Classes in TypeScript",
               link: "/typescript/typescript-classes",
             },
+            {
+              label: "Generics in TypeScript",
+              link: "/typescript/typescript-generics",
+            },
           ],
         },
-        
+
         {
           label: "JavaScript",
           items: [
