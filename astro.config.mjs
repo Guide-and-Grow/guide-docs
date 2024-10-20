@@ -37,13 +37,16 @@ export default defineConfig({
         {
           label: "TypeScript",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "What is TypeScript", link: "/typescript/typescript/" },
 
             {
               label: "Typescript inner working and installation",
               link: "/typescript/innerworking",
-            },
+            },{
+              label:'TypeScript Data Types',
+              link:'/typescript/typescript-data-types'
+
+            }
           ],
         },
         {
