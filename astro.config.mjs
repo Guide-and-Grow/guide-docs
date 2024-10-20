@@ -62,7 +62,11 @@ export default defineConfig({
             {
               label: "Functions in TypeScript",
               link: "/typescript/typescript-functions",
-            }
+            },
+            {
+              label: "Classes in TypeScript",
+              link: "/typescript/typescript-classes",
+            },
           ],
         },
         {
