@@ -42,11 +42,15 @@ export default defineConfig({
             {
               label: "Typescript inner working and installation",
               link: "/typescript/innerworking",
-            },{
-              label:'TypeScript Data Types',
-              link:'/typescript/typescript-data-types'
-
-            }
+            },
+            {
+              label: "TypeScript Data Types",
+              link: "/typescript/typescript-data-types",
+            },
+            {
+              label: "Types and Interfaces in TypeScript",
+              link: "/typescript/typescript-type-and-interfaces",
+            },
           ],
         },
         {
