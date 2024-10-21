@@ -77,10 +77,15 @@ export default defineConfig({
             {
               label: "Namespaces in TypeScript",
               link: "/typescript/typescript-namespaces",
-            },{
+            },
+            {
               label: "Type Guards in TypeScript",
               link: "/typescript/typescript-type-guards",
-            }
+            },
+            {
+              label: "Index Signatures in TypeScript",
+              link: "/typescript/typescript-index-signatures",
+            },
           ],
         },
 
