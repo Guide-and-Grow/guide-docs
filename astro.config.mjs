@@ -70,6 +70,10 @@ export default defineConfig({
               label: "Generics in TypeScript",
               link: "/typescript/typescript-generics",
             },
+            {
+              label: "Literal Types in TypeScript",
+              link: "/typescript/typescript-literal-types",
+            },
           ],
         },
 
