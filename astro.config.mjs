@@ -74,6 +74,10 @@ export default defineConfig({
               label: "Literal Types in TypeScript",
               link: "/typescript/typescript-literal-types",
             },
+            {
+              label: "Namespaces in TypeScript",
+              link: "/typescript/typescript-namespaces",
+            },
           ],
         },
 
