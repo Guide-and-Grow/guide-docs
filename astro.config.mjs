@@ -94,6 +94,10 @@ export default defineConfig({
               label: "Modules in TypeScript",
               link: "/typescript/typescript-modules",
             },
+            {
+              label: "Decorators in TypeScript",
+              link: "/typescript/typescript-decorators",
+            },
           ],
         },
 
