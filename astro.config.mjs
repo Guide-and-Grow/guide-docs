@@ -86,6 +86,10 @@ export default defineConfig({
               label: "Index Signatures in TypeScript",
               link: "/typescript/typescript-index-signatures",
             },
+            {
+              label: "Utility Types in TypeScript",
+              link: "/typescript/typescript-utility-types",
+            },
           ],
         },
 
