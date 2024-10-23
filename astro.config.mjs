@@ -90,6 +90,10 @@ export default defineConfig({
               label: "Utility Types in TypeScript",
               link: "/typescript/typescript-utility-types",
             },
+            {
+              label: "Modules in TypeScript",
+              link: "/typescript/typescript-modules",
+            },
           ],
         },
 
