@@ -32,6 +32,10 @@ export default defineConfig({
               label: "Mutable and Immutable Types in Python",
               link: "/python/mutable-and-immutable",
             },
+            {
+              label: "Data Types in Python",
+              link: "/python/data-types-python",
+            },
           ],
         },
         {
