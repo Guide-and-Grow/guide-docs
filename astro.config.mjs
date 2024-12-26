@@ -39,7 +39,11 @@ export default defineConfig({
             {
               label:"Numbers in Python",
               link:"/python/numbers-in-python"
-            }
+            },
+            {
+              label: "Operators in Python",
+              link: "/python/operators-in-python",
+            },
           ],
         },
         {
