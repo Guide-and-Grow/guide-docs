@@ -36,6 +36,10 @@ export default defineConfig({
               label: "Data Types in Python",
               link: "/python/data-types-python",
             },
+            {
+              label:"Numbers in Python",
+              link:"/python/numbers-in-python"
+            }
           ],
         },
         {
