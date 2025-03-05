@@ -147,3 +147,106 @@ return expectedSum - nums.reduce((acc, num) => acc + num, 0);
 - Expected Sum: We calculate the expected sum for numbers from `0` to `n` using the formula` n \* (n + 1) / 2`.
 - Actual Sum: Using the `reduce` function, we calculate the sum of the numbers present in the array.
 - Missing Number: The difference between the expected sum and the actual sum gives the missing number.
+
+# 4. Find Student in Array
+
+This algorithm is designed to search for a student's name in an array of student names. If the name is found, it will print the student's name.
+
+### Problem Description
+
+Given an array of student names and a target name to search for, check if the name exists in the array. If found, print the name; otherwise, do nothing.
+
+### Example 1
+
+**Input :**
+
+```js
+const studentData = ["Yogita", "Rahul", "Yuvraj", "Sayali"];
+findStudent(studentData, "Yogita");
+```
+
+Output :
+
+```js
+Yogita
+```
+
+**Explanation :** The name "Yogita" is found in the array, so it is printed.
+
+### Example 2
+
+**Input :**
+
+```js
+findStudent(studentData, "Amit");
+```
+
+Output :
+
+```js
+(No Output)
+```
+
+**Explanation :** The name "Amit" is not found, so nothing is printed.
+
+### Function Definition
+
+```js
+/**
+ * Function to find and print a student's name from an array.
+ * @param {string[]} allStudents - Array of student names.
+ * @param {string} studentName - The name to search for.
+ */
+const findStudent = (allStudents, studentName) => {
+  for (let i = 0; i < allStudents.length; i++) {
+    if (allStudents[i] === studentName) {
+      console.log(studentName);
+    }
+  }
+};
+```
+
+### Step-by-Step Explanation:
+
+1. Input Parameters:
+
+* allStudents: An array containing the names of all students.
+* studentName: The name of the student to find. 
+
+
+2. For Loop:
+
+```js
+for (let i = 0; i < allStudents.length; i++) {
+```
+
+* The loop starts at index 0 and continues until the end of the array.
+* i is used as the index to access each student's name.
+
+3. Condition Check:
+
+```js
+if (allStudents[i] === studentName) {
+```
+
+* Checks if the current name in the array is equal to the studentName.
+* If a match is found, it prints the name using console.log.
+
+4. Output:
+
+* If the name is found, it prints the student's name.
+* If the name is not found, nothing is printed.
+
+#### Example Usage:
+
+```js
+const studentData = ["Yogita", "Rahul", "Yuvraj", "Sayali"];
+findStudent(studentData, "Yogita"); // Output: Yogita
+findStudent(studentData, "Amit");   // No Output
+```
+
+#### Summary:
+* The function iterates through the array using a for loop.
+* It checks each name to see if it matches the given studentName.
+* If a match is found, it prints the name.
+* If no match is found, the loop ends without any output.
