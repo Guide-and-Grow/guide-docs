@@ -148,6 +148,89 @@ return expectedSum - nums.reduce((acc, num) => acc + num, 0);
 - Actual Sum: Using the `reduce` function, we calculate the sum of the numbers present in the array.
 - Missing Number: The difference between the expected sum and the actual sum gives the missing number.
 
+
+
+---
+
+## 4. Capitalize Sentence
+
+### **Problem:**
+Given a sentence, capitalize the first letter of each word.
+
+### **Solution:**
+```javascript
+function capitalizeSentence(sentence) {
+    return sentence
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(' ');
+}
+```
+
+### **Example:**
+```javascript
+console.log(capitalizeSentence("hello world! this is javascript."));
+// Output: "Hello World! This Is Javascript."
+```
+
+---
+
+## 5. FizzBuzz
+
+### **Problem:**
+Print numbers from `1` to `n`. For multiples of 3, print "Fizz" instead of the number. For multiples of 5, print "Buzz". For numbers divisible by both 3 and 5, print "FizzBuzz".
+
+### **Solution:**
+```javascript
+function fizzBuzz(n) {
+    for (let i = 1; i <= n; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(i);
+        }
+    }
+}
+```
+
+### **Example:**
+```javascript
+fizzBuzz(20);
+```
+
+---
+
+## 6. Maximum Profit (Stock Trading)
+
+### **Problem:**
+Given an array of stock prices, find the maximum profit you can achieve by buying and selling once.
+
+### **Solution:**
+```javascript
+function maxProfit(prices) {
+    let minPrice = Infinity, maxProfit = 0;
+    for (let price of prices) {
+        minPrice = Math.min(minPrice, price);
+        maxProfit = Math.max(maxProfit, price - minPrice);
+    }
+    return maxProfit;
+}
+```
+
+### **Example:**
+```javascript
+console.log(maxProfit([7, 1, 5, 3, 6, 4]));  // Output: 5 (Buy at 1, Sell at 6)
+console.log(maxProfit([7, 6, 4, 3, 1]));  // Output: 0 (No profit possible)
+```
+
+---
+
+
+
 # 4. Find Student in Array
 
 This algorithm is designed to search for a student's name in an array of student names. If the name is found, it will print the student's name.
