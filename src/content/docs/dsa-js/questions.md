@@ -231,7 +231,7 @@ console.log(maxProfit([7, 6, 4, 3, 1]));  // Output: 0 (No profit possible)
 
 
 
-# 4. Find Student in Array
+# 7. Find Student in Array
 
 This algorithm is designed to search for a student's name in an array of student names. If the name is found, it will print the student's name.
 
@@ -244,17 +244,18 @@ Given an array of student names and a target name to search for, check if the na
 **Input :**
 
 ```js
-const studentData = ["Yogita", "Rahul", "Yuvraj", "Sayali"];
-findStudent(studentData, "Yogita");
+const studentDB = ["Saurabh", "Banti", "Raju", "Rajesh", "Dipali"];
+
+findStudent(studentData, "Saurabh");
 ```
 
 Output :
 
 ```js
-Yogita
+Saurabh
 ```
 
-**Explanation :** The name "Yogita" is found in the array, so it is printed.
+**Explanation :** The name "Saurabh" is found in the array, so it is printed.
 
 ### Example 2
 
@@ -280,14 +281,17 @@ Output :
  * @param {string[]} allStudents - Array of student names.
  * @param {string} studentName - The name to search for.
  */
-const findStudent = (allStudents, studentName) => {
-  for (let i = 0; i < allStudents.length; i++) {
-    if (allStudents[i] === studentName) {
-      console.log(studentName);
+
+const findStudentName = (data, name) => {
+  for (let i = 0; i < data.length; i++) {
+    if (data[i] === name) {
+      return data[i];
     }
   }
+  return false;
 };
-```
+
+// console.log(findStudentName(studentDB, "Raju"));
 
 ### Step-by-Step Explanation:
 
@@ -300,7 +304,11 @@ const findStudent = (allStudents, studentName) => {
 2. For Loop:
 
 ```js
-for (let i = 0; i < allStudents.length; i++) {
+ for (let i = 0; i < data.length; i++) {
+    if (data[i] === name) {
+      return data[i];
+    }
+  }
 ```
 
 * The loop starts at index 0 and continues until the end of the array.
@@ -309,7 +317,9 @@ for (let i = 0; i < allStudents.length; i++) {
 3. Condition Check:
 
 ```js
-if (allStudents[i] === studentName) {
+  if (data[i] === name) {
+      return data[i];
+    }
 ```
 
 * Checks if the current name in the array is equal to the studentName.
@@ -323,8 +333,9 @@ if (allStudents[i] === studentName) {
 #### Example Usage:
 
 ```js
-const studentData = ["Yogita", "Rahul", "Yuvraj", "Sayali"];
-findStudent(studentData, "Yogita"); // Output: Yogita
+const studentDB = ["Saurabh", "Banti", "Raju", "Rajesh", "Dipali"];
+
+findStudent(studentData, "Saurabh"); // Output: Saurabh
 findStudent(studentData, "Amit");   // No Output
 ```
 
