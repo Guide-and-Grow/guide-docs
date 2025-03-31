@@ -37,8 +37,8 @@ export default defineConfig({
               link: "/python/data-types-python",
             },
             {
-              label:"Numbers in Python",
-              link:"/python/numbers-in-python"
+              label: "Numbers in Python",
+              link: "/python/numbers-in-python"
             },
             {
               label: "Operators in Python",
@@ -144,7 +144,10 @@ export default defineConfig({
         },
         {
           label: "Dsa JavaScript Questions",
-          items: [{ label: "Easy", link: "/dsa-js/questions/" }],
+          items: [
+            { label: "Easy", link: "/dsa-js/questions/" },
+            { label: "Medium", link: "/dsa-js/medium/" },
+          ],
         },
         {
           label: "Devops",
