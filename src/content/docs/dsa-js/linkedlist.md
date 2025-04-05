@@ -7,6 +7,10 @@ description: Advanced-Level JavaScript Data Structures and Algorithms Questions
 
 This guide covers the implementation and operations of different types of linked lists in JavaScript. It serves as a comprehensive reference for understanding and working with linked list data structures.
 
+## Definition
+
+A Linked list is a linear data structure where elements, called **nodes**, are not stored contiguously in memory.  Instead, each node contains **data** and a **references** , or link, to the next node in the sequence,
+
 ## Types of Linked Lists
 
 ### 1. Singly Linked List
