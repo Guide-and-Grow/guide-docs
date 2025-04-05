@@ -147,6 +147,7 @@ export default defineConfig({
           items: [
             { label: "Easy", link: "/dsa-js/questions/" },
             { label: "Medium", link: "/dsa-js/medium/" },
+            { label: "Advance Linked List", link: "/dsa-js/linkedlist/" },
           ],
         },
         {
